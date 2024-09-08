@@ -1,0 +1,14 @@
+# Logu project
+
+## 目的
+
+タスク管理ツール
+
+## 技術選定
+
+- Svelte
+- SvelteKit
+- TailwindCSS
+- shadcn-svelte
+- Drizzle
+- Supabase
