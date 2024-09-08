@@ -1,0 +1,10 @@
+pre-commit:
+  parallel: true
+  commands:
+    eslint:
+      glob: '*.{js,jsx,ts,tsx,svelte}'
+      exclude: '^\.|/\.'
+      run: pnpm eslint --fix --max-warnings=0 {staged_files}
+
+    prettier:
+      run: pnpm prettier --write --ignore-unknown {staged_files}
